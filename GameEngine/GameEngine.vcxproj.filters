@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GameEngine">
+      <UniqueIdentifier>{8f33930c-40ac-41ed-8fe6-d7205206ea8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{5db09464-f110-410d-9972-121d784a379d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\SceneManager">
+      <UniqueIdentifier>{c58b03d3-d750-43d8-b45a-85fd93653dca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\InputManager">
+      <UniqueIdentifier>{8fc0a7d5-0529-4ebc-803f-3a435ebf470e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameTimer">
+      <UniqueIdentifier>{3b4b53ba-b8c9-4756-8f19-5d108a8c5f75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{b3a72daf-d2a5-424a-99d8-98922a752b7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts">
+      <UniqueIdentifier>{c1e5542b-582d-449d-983e-4dec4b659c79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{1a8251cf-2d32-4ca2-9795-fceafb60e1ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\ObjectManager">
+      <UniqueIdentifier>{3ab39b5b-2c54-42a2-ab08-12d89aa77019}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EXPERIMENT">
+      <UniqueIdentifier>{2505f18a-c741-4488-b2c8-fe5b61ab7ebb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Managers\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTimer.cpp">
+      <Filter>GameTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>EXPERIMENT</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>EXPERIMENT</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>EXPERIMENT</Filter>
+    </ClCompile>
+    <ClCompile Include="Behaviour.cpp">
+      <Filter>EXPERIMENT</Filter>
+    </ClCompile>
+    <ClCompile Include="MonoBehaviour.cpp">
+      <Filter>EXPERIMENT</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Tetromino.cpp">
+      <Filter>Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="TetrisMechanism.cpp">
+      <Filter>Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Managers\InputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomNumber.cpp">
+      <Filter>Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Managers\ObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameEngine.h">
+      <Filter>GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="IScene.h">
+      <Filter>Managers\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Managers\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTimer.h">
+      <Filter>GameTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>EXPERIMENT</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>EXPERIMENT</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>EXPERIMENT</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviour.h">
+      <Filter>EXPERIMENT</Filter>
+    </ClInclude>
+    <ClInclude Include="MonoBehaviour.h">
+      <Filter>EXPERIMENT</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Tetromino.h">
+      <Filter>Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTon.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="TetrisMechanism.h">
+      <Filter>Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Managers\InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomNumber.h">
+      <Filter>Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Managers\ObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
